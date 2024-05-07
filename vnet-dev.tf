@@ -15,7 +15,7 @@ module "azure_vnet_dev" {
     }
   ]
   tags = {
-    Environment = "Development"
+    Environment = "staging"
     Critical = "No"
   }
 }
